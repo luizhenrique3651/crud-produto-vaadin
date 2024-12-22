@@ -21,9 +21,9 @@ public class Produto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    @Column(name = "txt_descricao")
+   
     private String descricao;
-    @Column(name = "val_unitario")
+
     private BigDecimal valorUnitario;
 
 
